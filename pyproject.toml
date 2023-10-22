@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nbdev-hello-world"
+version = "0.1.0"
+description = ""
+authors = ["David Manuel <david@dcmanjr.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.0.7"
+nbdev = "^2.3.13"
+jupyterlab-quarto = "^0.2.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
